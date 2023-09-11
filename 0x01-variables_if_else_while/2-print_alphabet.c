@@ -1,16 +1,18 @@
-#inlude <stdio>
+#include <stdio.h>
+
 /**
- * main - entry point
+ * main - main function
  *
- * Return: always 0
+ * Return: Always 0
  */
+
 int main(void)
 {
 	char letter = 'a';
-	 while (letter < = 'z') {
-		  putchar(letter);
-		  letter++;
-	 }
-	 putchar('\n');
-	  return (0);
+
+	while (letter < = 'z')
+		putcher(letter);
+	letter++;
+	putcher('\n');
+	return (0);
 }
